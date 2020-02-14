@@ -6,8 +6,8 @@ import "./index.css";
 import App from "./App";
 
 ReactDOM.render(
-    <BrowserRouter basename={"/tf-jsx-demo/rosy/"}>
-        <Route path="/" component={App} />
-    </BrowserRouter>,
-    document.getElementById("root")
+  <BrowserRouter basename={""}>
+    <Route path="/" component={App} />
+  </BrowserRouter>,
+  document.getElementById("root")
 );
