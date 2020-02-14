@@ -26,7 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Page loader={"comet-spin"} color={"#fe5619"} size={50}>
+        <Page loader={"comet-spin"} color={"#4650dc"} size={50}>
           <div>
             <Route
               render={({ location }) => (
