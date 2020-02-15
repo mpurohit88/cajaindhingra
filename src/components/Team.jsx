@@ -111,6 +111,14 @@ Team.defaultProps = {
     "Partner having 25 years of qualitative experience in various Finance & Accounts functions, Annual finalization of Accounts , Internal Controls, Budgeting & Budgetary Controls, Inventory Controls, Product Costing, Credit Control, Contract Manufacturing Operation ,Internal Financial Controls (IFC) ,ERP Implementation (SME), Financial Statements preparation & analysis, Statutory & Tax Audits , Business Analysis, arrangement of Loans from Financial Institutions & arranging credit ratings for Organisations",
   teamsData: [
     {
+      Image: require("../assets/img/team-two.jpg"),
+      Name: "Shekhar Nigam",
+      Profession: "CA",
+      facebookLink: "/#0",
+      linkedinLink: "/#0",
+      twitterLink: "/#0"
+    },
+    {
       Image: require("../assets/img/team-one.jpg"),
       Name: "K.C Agarwal",
       Profession: "CA",
@@ -119,7 +127,7 @@ Team.defaultProps = {
       twitterLink: "/#0"
     },
     {
-      Image: require("../assets/img/team-two.jpg"),
+      Image: require("../assets/img/team-one.jpg"),
       Name: "Rakesh Gupta",
       Profession: "CA",
       facebookLink: "/#0",
@@ -135,15 +143,7 @@ Team.defaultProps = {
       twitterLink: "/#0"
     },
     {
-      Image: require("../assets/img/team-two.jpg"),
-      Name: "Shekhar Nigam",
-      Profession: "CA",
-      facebookLink: "/#0",
-      linkedinLink: "/#0",
-      twitterLink: "/#0"
-    },
-    {
-      Image: require("../assets/img/team-two.jpg"),
+      Image: require("../assets/img/team-one.jpg"),
       Name: "Ajay Gupta",
       Profession: "CA",
       facebookLink: "/#0",

@@ -40,7 +40,9 @@ class Contact extends Component {
         });
         document.getElementById("contactForm").reset();
       })
-      .catch(function(error) {});
+      .catch(function(error) {
+        console.log("error...", error);
+      });
   };
 
   handleFields = e => this.setState({ [e.target.name]: e.target.value });
@@ -199,6 +201,27 @@ class Contact extends Component {
                   ) : null}
                 </div>
               </div>
+              <div>
+                <div className="col-lg-12 col-md-12">
+                  <div className="address-area">
+                    <div className="addess">
+                      <Icofont icon="icofont-google-map" />
+                      <h4>{this.props.Branch1Title}</h4>
+                      <p>{this.props.Branch1Aggress}</p>
+                    </div>
+                    <div className="addess">
+                      <Icofont icon="icofont-google-map" />
+                      <h4>{this.props.Branch2Title}</h4>
+                      <p>{this.props.Branch2Aggress}</p>
+                    </div>
+                    <div className="addess">
+                      <Icofont icon="icofont-google-map" />
+                      <h4>{this.props.Branch3Title}</h4>
+                      <p>{this.props.Branch3Aggress}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -217,7 +240,13 @@ Contact.propTypes = {
   EmailTitle: PropTypes.string,
   Email: PropTypes.string,
   PhoneTitle: PropTypes.string,
-  Phone: PropTypes.string
+  Phone: PropTypes.string,
+  Branch1Title: PropTypes.string,
+  Branch1Aggress: PropTypes.string,
+  Branch2Title: PropTypes.string,
+  Branch2Aggress: PropTypes.string,
+  Branch3Title: PropTypes.string,
+  Branch3Aggress: PropTypes.string
 };
 
 //Default Props
@@ -229,8 +258,14 @@ Contact.defaultProps = {
   AddTitle: "Address",
   Address: "17/14, The Mall, Kanpur, U.P. – 208001",
   EmailTitle: "Email",
-  Email: "jaindhingra@gmail.com",
+  Email: "info@cajaindhingra.com",
   PhoneTitle: "Phone",
-  Phone: "9736136414, 9839470209, 9415052167"
+  Phone: "9736136414, 9839470209, 9415052167",
+  Branch1Title: "Branch Address1",
+  Branch1Aggress: "17/14, The Mall, Kanpur, U.P. – 208001",
+  Branch2Title: "Branch Address2",
+  Branch2Aggress: "17/14, The Mall, Kanpur, U.P. – 208001",
+  Branch3Title: "Branch Address3",
+  Branch3Aggress: "17/14, The Mall, Kanpur, U.P. – 208001"
 };
 export default Contact;

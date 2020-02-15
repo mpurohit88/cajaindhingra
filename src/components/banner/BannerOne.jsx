@@ -138,7 +138,7 @@ BannerOne.defaultProps = {
       ThumbIcon: "icofont-rocket-alt-1",
       ThumbTitle: "Our Mission",
       ThumbContent:
-        "To provide the best professional solutions to fulfil the client's business requirements, guiding at our best."
+        "To provide professional and financial services to our clients to support them to achieve their desired level of success"
     },
     {
       ThumbIcon: "icofont-box",
@@ -150,7 +150,7 @@ BannerOne.defaultProps = {
       ThumbIcon: "icofont-live-support",
       ThumbTitle: "Reliable Support",
       ThumbContent:
-        "We strive to embrace and drive change in our industry which allows us to keep our clients relevant."
+        "We strive to embrace and drive change in our Profession which allows us to keep our clients relevant."
     }
   ]
 };
