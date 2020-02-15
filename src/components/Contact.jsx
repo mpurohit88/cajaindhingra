@@ -4,6 +4,7 @@ import Icofont from "react-icofont";
 import axios from "axios";
 import { ValidationForm, TextInput } from "react-bootstrap4-form-validation";
 import ScrollAnimation from "react-animate-on-scroll";
+import emailJs from "emailjs-com";
 
 class Contact extends Component {
   constructor(props) {
@@ -18,11 +19,20 @@ class Contact extends Component {
     };
   }
   handleForm = e => {
-    let that = this;
-    axios
-      .post("https://formcarry.com/s/qJalZsYuqY-", this.state, {
-        headers: { Accept: "application/json" }
-      })
+    const that = this;
+    const templateParams = {
+      subject: this.state.subject,
+      message: this.state.message,
+      email: this.state.email,
+      phone: this.state.number,
+      name: this.state.name
+    };
+    const templateId = "template_bjvd76Ns";
+    const serviceId = "mailjet";
+    const userId = "user_wtH5nyU3NXs667ovWi6ls";
+
+    emailJs
+      .send(serviceId, templateId, templateParams, userId)
       .then(function(response) {
         document.getElementById("contactForm").reset();
         that.setState({
