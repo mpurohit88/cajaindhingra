@@ -2586,3 +2586,11 @@ h2 {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
+
+.list-unstyled {
+  text-align: left;
+}
+
+ul.list-unstyled > li {
+  list-style-type: square;
+}

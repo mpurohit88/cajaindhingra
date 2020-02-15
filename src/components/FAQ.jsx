@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import Icofont from "react-icofont";
 import PropTypes from "prop-types";
 import { Accordion, AccordionItem } from "react-sanfona";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
+import { Link } from "react-scroll";
 
 class FAQ extends Component {
   render() {
@@ -27,8 +28,15 @@ class FAQ extends Component {
             <div className="faq-content">
               <div className="row">
                 <div className="col-lg-4">
-                  <Link to={this.props.ContentLink}>
-                    <div className="content-box color-effect-1">
+                  {/* <Link to={this.props.ContentLink}> */}
+                  <div className="content-box color-effect-1">
+                    <Link
+                      to="contact"
+                      spy={true}
+                      smooth={true}
+                      offset={-200}
+                      duration={800}
+                    >
                       <h3>{this.props.ContentTitle}</h3>
 
                       <div className="box-icon-wrap box-icon-effect-1 box-icon-effect-1a">
@@ -38,8 +46,9 @@ class FAQ extends Component {
                       </div>
 
                       <p>{this.props.ContentDescription}</p>
-                    </div>
-                  </Link>
+                    </Link>
+                  </div>
+                  {/* </Link> */}
                 </div>
 
                 <div className="col-lg-8">

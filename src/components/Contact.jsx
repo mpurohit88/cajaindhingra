@@ -9,15 +9,28 @@ class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "",
-      email: "",
-      subject: "",
-      number: "",
-      message: "",
-      successMsg: ""
+      name: "Prasant",
+      email: "prasant38@gmail.com",
+      subject: "Test",
+      number: "9731136260",
+      message: "Test",
+      successMsg: "Test"
     };
   }
   handleForm = e => {
+    const sgMail = require("@sendgrid/mail");
+    sgMail.setApiKey(
+      "SG.prG4H6rCTRWh7gpDguByEg.kau7wpQR7G1hbc7_fYgUgr_PqlxxshGr_p5MLQppbpw"
+    );
+    const msg = {
+      to: "prasant38@gmail.com",
+      from: "mpurohit88@gmail.com",
+      subject: "Sending with Twilio SendGrid is Fun",
+      text: "and easy to do anywhere, even with Node.js",
+      html: "<strong>and easy to do anywhere, even with Node.js</strong>"
+    };
+    sgMail.send(msg);
+
     let that = this;
     axios
       .post("https://formcarry.com/s/qJalZsYuqY-", this.state, {
@@ -30,7 +43,9 @@ class Contact extends Component {
         });
         document.getElementById("contactForm").reset();
       })
-      .catch(function(error) {});
+      .catch(function(error) {
+        console.log("error...", error);
+      });
   };
 
   handleFields = e => this.setState({ [e.target.name]: e.target.value });
@@ -219,7 +234,7 @@ Contact.defaultProps = {
   AddTitle: "Address",
   Address: "17/14, The Mall, Kanpur, U.P. – 208001",
   EmailTitle: "Email",
-  Email: "jaindhingra@gmail.com",
+  Email: "info@cajaindhingra.com",
   PhoneTitle: "Phone",
   Phone: "9736136414, 9839470209, 9415052167"
 };

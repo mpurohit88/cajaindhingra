@@ -270,7 +270,7 @@ class NavBar extends Component {
 
                     <Nav.Item>
                       <NavLink to="/" className="nav-link" activeClassName="">
-                        About
+                        About Us
                       </NavLink>
                     </Nav.Item>
 
@@ -330,7 +330,7 @@ NavBar.defaultProps = {
   MainLogo: require("../assets/img/logo.png"),
   Logo2: require("../assets/img/logo2.png"),
   mailLink: "mailto:name@email.com",
-  mail: "jaindhingra@gmail.com ",
+  mail: "info@cajaindhingra.com",
   numberLink: "callto: 9736136414, 9839470209, 9415052167",
   Number: " 9736136414, 9839470209, 9415052167",
   facebookLink: "//facebook.com/envato",
