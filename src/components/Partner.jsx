@@ -9,7 +9,7 @@ class Partners extends Component {
     //Partner loop start
     const partnerData = this.props.partnersData.map((partner, index) => (
       <div className="single-partner-logo" key={index}>
-        <Link to={partner.partnerLink} className="logo-preview">
+        <Link to={partner.partnerLink} className="">
           <img src={partner.partnerLogo} alt="partnerLogo" />
         </Link>
       </div>

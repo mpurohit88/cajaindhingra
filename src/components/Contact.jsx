@@ -137,6 +137,7 @@ class Contact extends Component {
                             name="subject"
                             id="subject"
                             type="text"
+                            required
                             successMessage=""
                             errorMessage="Please enter your email subject"
                             className="form-control"
@@ -144,6 +145,7 @@ class Contact extends Component {
                             autoComplete="off"
                             onChange={this.handleFields}
                           />
+                          <div className="help-block with-errors" />
                         </div>
                       </div>
 
@@ -153,6 +155,7 @@ class Contact extends Component {
                             name="number"
                             id="number"
                             type="text"
+                            required
                             successMessage=""
                             errorMessage="Please enter your phone number"
                             className="form-control"
@@ -160,6 +163,7 @@ class Contact extends Component {
                             autoComplete="off"
                             onChange={this.handleFields}
                           />
+                          <div className="help-block with-errors" />
                         </div>
                       </div>
 
