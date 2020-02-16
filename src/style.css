@@ -2018,6 +2018,7 @@ a.button.border {
 }
 .address-area {
   margin-top: 30px;
+  display: flex;
 }
 .address-area div {
   position: relative;
