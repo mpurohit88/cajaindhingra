@@ -44,11 +44,11 @@ class HomeOne extends Component {
         {/* Pricing: src/components/Pricing.jsx */}
         <Pricing />
         {/* FunFacts: src/components/FunFacts.jsx */}
-        <FunFacts />
+        {/* <FunFacts /> */}
         {/* Testimonials: src/components/Testimonials.jsx */}
         {/* <Testimonials /> */}
         {/* FAQ: src/components/FAQ.jsx */}
-        <FAQ />
+        {/* <FAQ /> */}
         {/* Partner: src/components/Partner.jsx */}
         <Partner />
         {/* Contact: src/components/Contact.jsx */}

@@ -77,7 +77,7 @@ Partners.propTypes = {
 //Default Props
 Partners.defaultProps = {
   SectionbgTitle: "Clients",
-  sectionTitle: "Our Clients",
+  sectionTitle: "Key Clients",
   sectionDescription:
     "More than ensuring compliance with a complex and difficult taxation system, Jain Dhingra & Associates systematic approach reveals insights that deliver meaningful outcomes which our clients like about.",
   partnersData: [

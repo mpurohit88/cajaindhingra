@@ -150,7 +150,7 @@ BannerOne.defaultProps = {
       ThumbIcon: "icofont-live-support",
       ThumbTitle: "Reliable Support",
       ThumbContent:
-        "We strive to embrace and drive change in our Profession which allows us to keep our clients relevant."
+        "We strive to embrace and drive change in our profession which allows us to keep our clients relevant."
     }
   ]
 };

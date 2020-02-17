@@ -151,7 +151,7 @@ Blog.defaultProps = {
       month: "",
       posttitle: "Successful ",
       postContent:
-        "It's been more than 46 years of successful navigation and service providence to around 250 of small and large entities who showed their trust on JDA and we prove it worth for them. Besides this, JDA has also been auditing most of the well-known National Banks, Government Insurance Companies and Corporation (Govt. Undertakings) for more than a four decade.",
+        "It's been more than 46 years of successful navigation and service providence to various small and large entities who showed their trust on JDA and we prove it worth for them. Besides this, JDA has also been auditing most of the well-known National Banks, Government Insurance Companies and Corporation (Govt. Undertakings) for more than a four decade.",
       authorName: "Jone",
       authorLink: "/#0",
       TotalComments: "06",

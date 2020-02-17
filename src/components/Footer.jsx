@@ -32,11 +32,11 @@ class Footer extends Component {
                         <Icofont icon="icofont-instagram" />
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to={this.props.linkedinLink}>
                         <Icofont icon="icofont-linkedin" />
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

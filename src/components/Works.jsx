@@ -125,7 +125,7 @@ Works.defaultProps = {
       postContent1:
         "Since its inception, Jain Dhingra & Associates is serving the entities of corporate and dealing with the accounting affairs of giant firms, keeping loyalty and dedication as their prime armours. ",
       postContent2:
-        "With our best team members who are professionally experienced and well-versed with the world of digitalization; always stand to serve nothing like second with their best works of SAP, M.S. Office, Tally and other latest software programs",
+        "With our best team members who are professionally experienced and well-versed with the world of digitalization; always stand to serve nothing like second with their best works of SAP, M.S. Office, Tally and other latest software programs.",
       authorName: "Jone",
       authorLink: "/#0",
       TotalComments: "06",

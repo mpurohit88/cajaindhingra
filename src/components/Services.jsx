@@ -110,7 +110,7 @@ Services.defaultProps = {
         "Start-up Business advice",
         "Registration of company",
         "Legal & Various types of Documentation",
-        "Obtaining Approval from Government",
+        "Obtaining Approvals from Government",
         "Providing end to end Business solution to clients"
       ]
     },

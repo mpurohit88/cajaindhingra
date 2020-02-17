@@ -13,8 +13,10 @@ class Team extends Component {
         <img src={team.Image} alt="Description" />
         <div className="box-content">
           <div className="box-inner-content">
+            <b>
+              <span className="post">{team.Profession}</span>
+            </b>
             <h3 className="title">{team.Name}</h3>
-            <span className="post">{team.Profession}</span>
             <ul className="icon">
               <li>
                 <Link to={team.facebookLink}>

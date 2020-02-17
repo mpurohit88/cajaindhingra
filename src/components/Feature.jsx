@@ -53,7 +53,7 @@ Feature.defaultProps = {
       icon: "icofont-live-support",
       heading: "Reliable Support",
       description:
-        "We strive to embrace and drive change in our Profession which allows us to keep our clients relevant."
+        "We strive to embrace and drive change in our profession which allows us to keep our clients relevant."
     }
   ]
 };
