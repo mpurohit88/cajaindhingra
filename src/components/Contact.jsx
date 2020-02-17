@@ -207,7 +207,7 @@ class Contact extends Component {
               </div>
               <div>
                 <div className="col-lg-12 col-md-12">
-                  <div className="address-area">
+                  <div className="address-area" style={{"display":"flex"}}>
                     <div className="addess">
                       <Icofont icon="icofont-google-map" />
                       <h4>{this.props.Branch1Title}</h4>
