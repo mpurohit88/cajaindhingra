@@ -27,11 +27,12 @@ class Contact extends Component {
       phone: this.state.number,
       name: this.state.name
     };
-    const templateId = "template_bjvd76Ns";
-    const serviceId = "mailjet";
-    const userId = "user_wtH5nyU3NXs667ovWi6ls";
+    // const templateId = "template_bjvd76Ns";
+    // const serviceId = "mailjet";
+    // const userId = "user_wtH5nyU3NXs667ovWi6ls";
 
-    axios.post('http://uploader.saimrc.com/api/sendEmail', templateParams)
+    axios
+      .post("http://uploader.saimrc.com/api/sendEmail", templateParams)
       .then(function(response) {
         document.getElementById("contactForm").reset();
         that.setState({
@@ -206,7 +207,7 @@ class Contact extends Component {
               </div>
               <div>
                 <div className="col-lg-12 col-md-12">
-                  <div className="address-area" style={{"display":"flex"}}>
+                  <div className="address-area" style={{ display: "flex" }}>
                     <div className="addess">
                       <Icofont icon="icofont-google-map" />
                       <h4>{this.props.Branch1Title}</h4>
@@ -264,10 +265,10 @@ Contact.defaultProps = {
   Email: "info@cajaindhingra.com",
   PhoneTitle: "Phone",
   Phone: "9736136414, 9839470209, 9415052167",
-  Branch1Title: "Branch Address1",
-  Branch1Aggress: "17/14, The Mall, Kanpur, U.P. – 208001",
-  Branch2Title: "Branch Address2",
-  Branch2Aggress: "17/14, The Mall, Kanpur, U.P. – 208001",
+  Branch1Title: "Delhi Branch",
+  Branch1Aggress: "G-20, Dewan House, Ajay Enclave, New Delhi",
+  Branch2Title: "Haryana Branch",
+  Branch2Aggress: "17/32, Gandhi Chowk, Bahadurgarh, Jhajjar, Haryana",
   Branch3Title: "Branch Address3",
   Branch3Aggress: "17/14, The Mall, Kanpur, U.P. – 208001"
 };

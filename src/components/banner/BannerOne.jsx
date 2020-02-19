@@ -144,7 +144,7 @@ BannerOne.defaultProps = {
       ThumbIcon: "icofont-box",
       ThumbTitle: "Our Vision",
       ThumbContent:
-        "To help our clients to meet their goals through our professionals, services and solutions."
+        "To guide our clients to attain their objectives through our experienced professionals, dedicated services and ERP based technical know-how."
     },
     {
       ThumbIcon: "icofont-live-support",

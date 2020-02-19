@@ -13,10 +13,10 @@ class Team extends Component {
         <img src={team.Image} alt="Description" />
         <div className="box-content">
           <div className="box-inner-content">
+            <h3 className="title">{team.Name}</h3>
             <b>
               <span className="post">{team.Profession}</span>
             </b>
-            <h3 className="title">{team.Name}</h3>
             <ul className="icon">
               <li>
                 <Link to={team.facebookLink}>
@@ -114,40 +114,56 @@ Team.defaultProps = {
   teamsData: [
     {
       Image: require("../assets/img/team-two.jpg"),
-      Name: "Shekhar Nigam",
-      Profession: "CA",
+      Name: "CA Shekhar Nigam",
+      Profession: "B.Sc , FCA",
       facebookLink: "/#0",
       linkedinLink: "/#0",
       twitterLink: "/#0"
     },
     {
       Image: require("../assets/img/team-one.jpg"),
-      Name: "K.C Agarwal",
-      Profession: "CA",
+      Name: "CA K.C Agarwal",
+      Profession: "B.Com., FCA",
       facebookLink: "/#0",
       linkedinLink: "/#0",
       twitterLink: "/#0"
     },
     {
       Image: require("../assets/img/team-one.jpg"),
-      Name: "Rakesh Gupta",
-      Profession: "CA",
+      Name: "CA Rakesh Gupta",
+      Profession: "B.Com , FCA, DISA(ICA)",
       facebookLink: "/#0",
       linkedinLink: "/#0",
       twitterLink: "/#0"
     },
     {
       Image: require("../assets/img/team-three.jpg"),
-      Name: "Pankaj Kumpawat",
-      Profession: "CA",
+      Name: "CA Pankaj Kumpawat",
+      Profession: "B.Com., FCA, DISA(ICA)",
       facebookLink: "/#0",
       linkedinLink: "/#0",
       twitterLink: "/#0"
     },
     {
       Image: require("../assets/img/team-one.jpg"),
-      Name: "Ajay Gupta",
-      Profession: "CA",
+      Name: "CA Ajay Gupta",
+      Profession: "B.Com., FCA",
+      facebookLink: "/#0",
+      linkedinLink: "/#0",
+      twitterLink: "/#0"
+    },
+    {
+      Image: require("../assets/img/team-one.jpg"),
+      Name: "CA R.N. Dhingra",
+      Profession: "M.Com., FCA",
+      facebookLink: "/#0",
+      linkedinLink: "/#0",
+      twitterLink: "/#0"
+    },
+    {
+      Image: require("../assets/img/team-one.jpg"),
+      Name: "CA B.S. Jain",
+      Profession: "M.Com., FCA",
       facebookLink: "/#0",
       linkedinLink: "/#0",
       twitterLink: "/#0"

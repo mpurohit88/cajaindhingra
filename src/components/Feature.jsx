@@ -47,7 +47,7 @@ Feature.defaultProps = {
       icon: "icofont-brand-mercedes",
       heading: "Our Vision",
       description:
-        "To help our clients to meet their goals through our professionals, services and solutions."
+        "To guide our clients to attain their objectives through our experienced professionals, dedicated services and ERP based technical know-how."
     },
     {
       icon: "icofont-live-support",
