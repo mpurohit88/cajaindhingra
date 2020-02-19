@@ -425,6 +425,10 @@ button {
   display: block;
   top: 8px;
 }
+
+.menu-shrink .navbar-brand.logo-2 img {
+  height: 3em;
+}
 .navbar-brand.logo-2,
 .menu-shrink .navbar-brand.logo {
   display: none;
