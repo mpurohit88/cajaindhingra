@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Icofont from "react-icofont";
 import { Link } from "react-router-dom";
 
-export class ItemTwo extends Component {
+export class ItemThree extends Component {
   render() {
     const itemonedata = this.props.itemonesData.map((itemone, index) => (
       <div className={itemone.className} key={index}>
@@ -39,7 +39,7 @@ export class ItemTwo extends Component {
         </div>
       </div>
     ));
-    //End ItemTwo Loop
+    //End ItemThree Loop
     return (
       <React.Fragment>
         <div role="tabpanel" className="tab-pane fade show active" id="monthly">
@@ -49,24 +49,24 @@ export class ItemTwo extends Component {
     );
   }
 }
-ItemTwo.PropsTypes = {
+ItemThree.PropsTypes = {
   itemonesData: PropTypes.array
 };
-ItemTwo.defaultProps = {
+ItemThree.defaultProps = {
   itemonesData: [
     {
       planName: "",
       className: "plan featured",
       description:
-        "Here are the List of Industries we operate in Services Sector",
+        "Here are the List of Industries we operate in Financial & Insurance Sector Sector",
       FeaturedClass: "listing-badges",
       Featured: "",
-      price: "Services Sector",
-      content1: "Educational Institutions",
-      content2: "Charitable Trusts",
-      content3: "Hospitals",
-      content4: "Legal & Secretarial Services",
-      content5: "Other services",
+      price: "Financial & Insurance Sector",
+      content1: "Public Sector Banks",
+      content2: "General Insurance Companies",
+      content3: "",
+      content4: "",
+      content5: "",
       content6: "",
       content7: "",
       BtnName: "Purchase Now",
@@ -74,4 +74,4 @@ ItemTwo.defaultProps = {
     }
   ]
 };
-export default ItemTwo;
+export default ItemThree;

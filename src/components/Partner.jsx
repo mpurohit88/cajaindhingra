@@ -4,6 +4,9 @@ import OwlCarousel from "react-owl-carousel3";
 import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 
+import ItemOne from "../components/pricingItem/ItemOne";
+import ItemTwo from "../components/pricingItem/ItemTwo";
+
 class Partners extends Component {
   render() {
     //Partner loop start
@@ -81,74 +84,74 @@ Partners.defaultProps = {
   sectionDescription:
     "More than ensuring compliance with a complex and difficult taxation system, Jain Dhingra & Associates systematic approach reveals insights that deliver meaningful outcomes which our clients like about.",
   partnersData: [
-    {
-      partnerLogo: require("../assets/img/partners-logo/img1.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img2.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img3.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img4.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img5.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img6.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img7.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img8.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img9.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img10.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img11.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img12.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img13.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img14.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img15.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img16.jpg"),
-      partnerLink: "/#0"
-    },
-    {
-      partnerLogo: require("../assets/img/partners-logo/img17.jpg"),
-      partnerLink: "/#0"
-    }
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img1.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img2.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img3.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img4.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img5.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img6.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img7.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img8.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img9.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img10.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img11.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img12.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img13.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img14.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img15.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img16.jpg"),
+    //   partnerLink: "/#0"
+    // },
+    // {
+    //   partnerLogo: require("../assets/img/partners-logo/img17.jpg"),
+    //   partnerLink: "/#0"
+    // }
   ]
 };
 export default Partners;

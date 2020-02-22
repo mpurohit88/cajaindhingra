@@ -21,7 +21,7 @@ class Blog extends Component {
     const blogdata = this.props.blogsData.map((blog, index) => (
       <div className="col-md-6 col-lg-6" key={index}>
         <div className="blog-item">
-          {/* <Link to={blog.postLink} className="blog-img">
+          {/* <Link  className="blog-img">
             <img src={blog.postImage} alt="blog-one" />
           </Link> */}
           <div className="blog-info">
@@ -74,7 +74,32 @@ class Blog extends Component {
                 </ScrollAnimation>
               </div>
             </div>
-
+            <div className="row">
+              <div class="blog-item founder1">
+                <img
+                  src={require("../assets/img/founder11.png")}
+                  alt="blog-one"
+                  width="270px"
+                />
+                <div class="title-meta">
+                  <h3>
+                    <a href="/">CA Ravindra Nath Dhingra</a>
+                  </h3>
+                </div>
+              </div>
+              <div class="blog-item founder2">
+                <img
+                  src={require("../assets/img/founder22.png")}
+                  alt="blog-one"
+                  width="270px"
+                />
+                <div class="title-meta">
+                  <h3>
+                    <a href="/">CA Bhoopat S. Jain</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
             <div className="row">
               {blogdata}
               <div className="col-lg-12 col-md-12 all-post">
@@ -116,7 +141,7 @@ Blog.defaultProps = {
   blogsData: [
     {
       //   postImage: require("../assets/img/blog-one.jpg"),
-      postLink: "/blog-details",
+      postLink: "",
       date: "",
       month: "",
       posttitle: "Efforts",
@@ -130,8 +155,8 @@ Blog.defaultProps = {
       TagLink: "/#0"
     },
     {
-      postImage: require("../assets/img/blog-two.jpg"),
-      postLink: "/blog-details",
+      // postImage: require("../assets/img/blog-two.jpg"),
+      postLink: "",
       date: "",
       month: "",
       posttitle: "Entrepreneurship",
@@ -145,8 +170,8 @@ Blog.defaultProps = {
       TagLink: "/#0"
     },
     {
-      postImage: require("../assets/img/blog-three.jpg"),
-      postLink: "/blog-details",
+      // postImage: require("../assets/img/blog-three.jpg"),
+      postLink: "",
       date: "",
       month: "",
       posttitle: "Successful ",
@@ -160,8 +185,8 @@ Blog.defaultProps = {
       TagLink: "/#0"
     },
     {
-      postImage: require("../assets/img/blog-four.jpg"),
-      postLink: "/blog-details",
+      // postImage: require("../assets/img/blog-four.jpg"),
+      postLink: "",
       date: "",
       month: "",
       posttitle: "Digitalisation",

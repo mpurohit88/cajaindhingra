@@ -622,7 +622,7 @@ button {
 .owl-thumb-item {
   display: inline-block;
   border: none;
-  max-width: 360px;
+  max-width: 250px;
   margin: 0 15px;
   cursor: pointer;
   background-color: #fdfdfd;
@@ -953,6 +953,7 @@ Services Area CSS
     Our Team Area CSS 
    ========================= */
 .team-box {
+  width: 250px;
   overflow: hidden;
   position: relative;
   margin-top: 30px;
@@ -1121,6 +1122,16 @@ Services Area CSS
   -moz-transition: 0.4s;
   overflow: hidden;
   height: 25em;
+}
+
+.founder1 {
+  height: 30em;
+  margin: 0 50% 0 0;
+}
+
+.founder2 {
+  margin: 0 0 0 0;
+  height: -webkit-fill-available;
 }
 .blog-item:hover {
   -webkit-box-shadow: 0px 0px 8px 0px rgba(254, 86, 25, 0.3);
@@ -1565,8 +1576,8 @@ Services Area CSS
 .nav-tabs .nav-item.show .nav-link,
 .tab-slider .nav-tabs .nav-link:hover {
   color: #fff;
-  background-color: #fe5f25;
-  border-color: #fe6128 #dee2e6 #fff;
+  background-color: #4650dc;
+  border-color: #4650dc #dee2e6 #fff;
 }
 .margin-top-60 {
   margin-top: 60px;

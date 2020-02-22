@@ -113,7 +113,7 @@ Team.defaultProps = {
     "Partner having 25 years of qualitative experience in various Finance & Accounts functions, Annual finalization of Accounts , Internal Controls, Budgeting & Budgetary Controls, Inventory Controls, Product Costing, Credit Control, Contract Manufacturing Operation ,Internal Financial Controls (IFC) ,ERP Implementation (SME), Financial Statements preparation & analysis, Statutory & Tax Audits , Business Analysis, arrangement of Loans from Financial Institutions & arranging credit ratings for Organisations",
   teamsData: [
     {
-      Image: require("../assets/img/team-two.jpg"),
+      Image: require("../assets/img/sekharnigam.jpg"),
       Name: "CA Shekhar Nigam",
       Profession: "B.Sc , FCA",
       facebookLink: "/#0",
@@ -129,7 +129,7 @@ Team.defaultProps = {
       twitterLink: "/#0"
     },
     {
-      Image: require("../assets/img/team-one.jpg"),
+      Image: require("../assets/img/rakeshGupta.jpg"),
       Name: "CA Rakesh Gupta",
       Profession: "B.Com , FCA, DISA(ICA)",
       facebookLink: "/#0",
@@ -137,7 +137,7 @@ Team.defaultProps = {
       twitterLink: "/#0"
     },
     {
-      Image: require("../assets/img/team-three.jpg"),
+      Image: require("../assets/img/PankajKumpawat.jpg"),
       Name: "CA Pankaj Kumpawat",
       Profession: "B.Com., FCA, DISA(ICA)",
       facebookLink: "/#0",

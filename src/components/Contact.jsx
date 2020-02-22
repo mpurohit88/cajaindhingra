@@ -218,11 +218,11 @@ class Contact extends Component {
                       <h4>{this.props.Branch2Title}</h4>
                       <p>{this.props.Branch2Aggress}</p>
                     </div>
-                    <div className="addess">
+                    {/* <div className="addess">
                       <Icofont icon="icofont-google-map" />
                       <h4>{this.props.Branch3Title}</h4>
                       <p>{this.props.Branch3Aggress}</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

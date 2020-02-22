@@ -38,7 +38,6 @@ class HomeOne extends Component {
         <Blog />
         {/* Team: src/components/Team.jsx */}
         <Team />
-
         {/* VideoArea: src/components/VideoArea.jsx */}
         <VideoArea />
         {/* Pricing: src/components/Pricing.jsx */}
@@ -50,7 +49,7 @@ class HomeOne extends Component {
         {/* FAQ: src/components/FAQ.jsx */}
         {/* <FAQ /> */}
         {/* Partner: src/components/Partner.jsx */}
-        <Partner />
+        {/* <Partner /> */}
         {/* Contact: src/components/Contact.jsx */}
         <Contact />
         {/* Footer: src/components/Footer.jsx */}
