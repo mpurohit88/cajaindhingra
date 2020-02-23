@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Icofont from "react-icofont";
@@ -87,7 +88,7 @@ class Contact extends Component {
                 </div>
               </div>
 
-              <div className="col-lg-8 col-md-8">
+              <div className="col-lg-4 col-md-4">
                 <div className="contact-form">
                   <ValidationForm
                     id="contactForm"
@@ -204,6 +205,17 @@ class Contact extends Component {
                     </div>
                   ) : null}
                 </div>
+              </div>
+              <div class="col-lg-4 col-md-4 gmap">
+                <iframe
+                  id="gmap_canvas"
+                  height="300"
+                  src="https://maps.google.com/maps?q=17%2F14%2C%20The%20Mall%2C%20Kanpur&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe>
               </div>
               <div>
                 <div className="col-lg-12 col-md-12">

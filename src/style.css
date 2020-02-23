@@ -2614,3 +2614,7 @@ h2 {
 ul.list-unstyled > li {
   list-style-type: square;
 }
+
+.gmap {
+  height: 50%;
+}
