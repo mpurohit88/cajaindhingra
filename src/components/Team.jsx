@@ -121,7 +121,7 @@ Team.defaultProps = {
       twitterLink: "/#0"
     },
     {
-      Image: require("../assets/img/team-one.jpg"),
+      Image: require("../assets/img/unknown.jpg"),
       Name: "CA K.C Agarwal",
       Profession: "B.Com., FCA",
       facebookLink: "/#0",
@@ -145,7 +145,7 @@ Team.defaultProps = {
       twitterLink: "/#0"
     },
     {
-      Image: require("../assets/img/team-one.jpg"),
+      Image: require("../assets/img/unknown.jpg"),
       Name: "CA Ajay Gupta",
       Profession: "B.Com., FCA",
       facebookLink: "/#0",
@@ -153,7 +153,7 @@ Team.defaultProps = {
       twitterLink: "/#0"
     },
     {
-      Image: require("../assets/img/team-one.jpg"),
+      Image: require("../assets/img/unknown.jpg"),
       Name: "CA R.N. Dhingra",
       Profession: "M.Com., FCA",
       facebookLink: "/#0",
@@ -161,7 +161,7 @@ Team.defaultProps = {
       twitterLink: "/#0"
     },
     {
-      Image: require("../assets/img/team-one.jpg"),
+      Image: require("../assets/img/unknown.jpg"),
       Name: "CA B.S. Jain",
       Profession: "M.Com., FCA",
       facebookLink: "/#0",

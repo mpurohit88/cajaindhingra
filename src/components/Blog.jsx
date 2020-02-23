@@ -21,9 +21,9 @@ class Blog extends Component {
     const blogdata = this.props.blogsData.map((blog, index) => (
       <div className="col-md-6 col-lg-6" key={index}>
         <div className="blog-item">
-          {/* <Link  className="blog-img">
+          <Link to={blog.postLink} className="blog-img">
             <img src={blog.postImage} alt="blog-one" />
-          </Link> */}
+          </Link>
           <div className="blog-info">
             <div className="date-box">
               {blog.date} <span className="month">{blog.month}</span>
@@ -74,7 +74,7 @@ class Blog extends Component {
                 </ScrollAnimation>
               </div>
             </div>
-            <div className="row">
+            {/* <div className="row">
               <div class="blog-item founder1">
                 <img
                   src={require("../assets/img/founder11.png")}
@@ -99,7 +99,7 @@ class Blog extends Component {
                   </h3>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="row">
               {blogdata}
               <div className="col-lg-12 col-md-12 all-post">
@@ -140,7 +140,35 @@ Blog.defaultProps = {
   BlogBtn: "View All Post",
   blogsData: [
     {
-      //   postImage: require("../assets/img/blog-one.jpg"),
+      postImage: require("../assets/img/founder11.png"),
+      postLink: "",
+      date: "",
+      month: "",
+      posttitle: "CA Ravindra Nath Dhingra",
+      postContent: "",
+      authorName: "Jone",
+      authorLink: "/#0",
+      TotalComments: "06",
+      CommentsLink: "/#0",
+      TagName: "lifestyle",
+      TagLink: "/#0"
+    },
+    {
+      postImage: require("../assets/img/founder22.png"),
+      postLink: "",
+      date: "",
+      month: "",
+      posttitle: "CA Bhoopat S. Jain",
+      postContent: "",
+      authorName: "Jone",
+      authorLink: "/#0",
+      TotalComments: "06",
+      CommentsLink: "/#0",
+      TagName: "lifestyle",
+      TagLink: "/#0"
+    },
+    {
+      postImage: require("../assets/img/efforts.jpg"),
       postLink: "",
       date: "",
       month: "",
@@ -155,7 +183,7 @@ Blog.defaultProps = {
       TagLink: "/#0"
     },
     {
-      // postImage: require("../assets/img/blog-two.jpg"),
+      postImage: require("../assets/img/enterpreniourship.jpg"),
       postLink: "",
       date: "",
       month: "",
@@ -170,7 +198,7 @@ Blog.defaultProps = {
       TagLink: "/#0"
     },
     {
-      // postImage: require("../assets/img/blog-three.jpg"),
+      postImage: require("../assets/img/successful.jpg"),
       postLink: "",
       date: "",
       month: "",
@@ -185,7 +213,7 @@ Blog.defaultProps = {
       TagLink: "/#0"
     },
     {
-      // postImage: require("../assets/img/blog-four.jpg"),
+      postImage: require("../assets/img/digi.jpg"),
       postLink: "",
       date: "",
       month: "",

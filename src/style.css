@@ -1121,7 +1121,7 @@ Services Area CSS
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   overflow: hidden;
-  height: 25em;
+  height: 100%;
 }
 
 .founder1 {
@@ -1468,7 +1468,7 @@ Services Area CSS
   top: 0;
 }
 .video-bg {
-  background-image: url(assets/img/video-bg.jpg);
+  background-image: url(assets/img/video.jpg);
 }
 .video-inner-content {
   color: #fff;
