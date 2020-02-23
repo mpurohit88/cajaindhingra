@@ -121,7 +121,7 @@ Team.defaultProps = {
       twitterLink: "/#0"
     },
     {
-      Image: require("../assets/img/unknown.jpg"),
+      Image: require("../assets/img/kcagarwal.png"),
       Name: "CA K.C Agarwal",
       Profession: "B.Com., FCA",
       facebookLink: "/#0",
