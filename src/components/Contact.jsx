@@ -210,7 +210,7 @@ class Contact extends Component {
                 <iframe
                   id="gmap_canvas"
                   height="300"
-                  src="https://maps.google.com/maps?q=17%2F14%2C%20The%20Mall%2C%20Kanpur&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=F995%2BRM%20General%20Ganj%2C%20Kanpur%2C%20Uttar%20Pradesh&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   frameborder="0"
                   scrolling="no"
                   marginheight="0"
@@ -272,7 +272,8 @@ Contact.defaultProps = {
   sectionDescription:
     "Feel free for all your queries. We are here to serve you with our best services!",
   AddTitle: "Address",
-  Address: "17/14, The Mall, Kanpur, U.P. – 208001",
+  Address:
+    "17/14, The Mall, Kanpur, U.P. – 208001 , Landmark - Bank of Baroda Building  ",
   EmailTitle: "Email",
   Email: "info@cajaindhingra.com",
   PhoneTitle: "Phone",

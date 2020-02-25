@@ -17,15 +17,15 @@ export class ItemThree extends Component {
         </div>
 
         <div className="plan-features">
-          <ul>
-            <li>{itemone.content1}</li>
-            <li>{itemone.content2}</li>
-            <li>{itemone.content3}</li>
-            <li>{itemone.content4}</li>
-            <li>{itemone.content5}</li>
-            <li>{itemone.content6}</li>
-            <li>{itemone.content7}</li>
-            <li>{itemone.content8}</li>
+          <ul className="list-unstyled">
+            <li className="p-2 font-weight-bold">{itemone.content1}</li>
+            <li className="p-2 font-weight-bold">{itemone.content2}</li>
+            {/* <li className="p-2 font-weight-bold">{itemone.content3}</li>
+            <li className="p-2 font-weight-bold">{itemone.content4}</li>
+            <li className="p-2 font-weight-bold">{itemone.content5}</li>
+            <li className="p-2 font-weight-bold">{itemone.content6}</li>
+            <li className="p-2 font-weight-bold">{itemone.content7}</li>
+            <li className="p-2 font-weight-bold">{itemone.content8}</li> */}
           </ul>
           {/* <div className="center-wrap">
             <Link to={itemone.btnlink} className="btn-a">
@@ -56,9 +56,8 @@ ItemThree.defaultProps = {
   itemonesData: [
     {
       planName: "",
-      className: "plan featured",
-      description:
-        "Here are the List of Industries we operate in Financial & Insurance Sector Sector",
+      className: "plan featured col-lg-5",
+      description: "",
       FeaturedClass: "listing-badges",
       Featured: "",
       price: "Financial & Insurance Sector",

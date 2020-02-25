@@ -1178,7 +1178,7 @@ Services Area CSS
   line-height: 25px;
 }
 .title-meta h2 a {
-  font-size: 24px;
+  font-size: 20px;
   color: #626262;
   margin-top: 10px;
   transition: 0.4s;
@@ -1645,6 +1645,7 @@ a.button.border {
   transform: translateY(-23px);
   border-radius: 0 0 3px 3px;
   z-index: 11;
+  margin: auto;
 }
 .listing-badges {
   position: absolute;
@@ -1697,6 +1698,7 @@ a.button.border {
 }
 .plan.featured .plan-price .value {
   color: #fff;
+  font-size: 2em;
 }
 .plan.featured .plan-price .period {
   color: rgba(255, 255, 255, 0.8);
@@ -2617,4 +2619,8 @@ ul.list-unstyled > li {
 
 .gmap {
   height: 50%;
+}
+
+.marginAuto {
+  margin: auto;
 }
