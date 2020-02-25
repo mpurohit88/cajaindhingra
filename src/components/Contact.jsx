@@ -210,7 +210,7 @@ class Contact extends Component {
                 <iframe
                   id="gmap_canvas"
                   height="300"
-                  src="https://maps.google.com/maps?q=F995%2BRM%20General%20Ganj%2C%20Kanpur%2C%20Uttar%20Pradesh&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=F995%2BRM%20Kanpur%2C%20Uttar%20Pradesh%2C%20India&t=&z=19&ie=UTF8&iwloc=&output=embed"
                   frameborder="0"
                   scrolling="no"
                   marginheight="0"

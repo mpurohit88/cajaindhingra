@@ -1616,7 +1616,6 @@ Services Area CSS
   display: block;
   font-size: 37px;
   line-height: 35px;
-  padding: 22px 0 0 0;
   color: #66676b;
 }
 .plan-price .period {
@@ -1698,7 +1697,7 @@ a.button.border {
 }
 .plan.featured .plan-price .value {
   color: #fff;
-  font-size: 2em;
+  font-size: 20px;
 }
 .plan.featured .plan-price .period {
   color: rgba(255, 255, 255, 0.8);
@@ -2618,9 +2617,18 @@ ul.list-unstyled > li {
 }
 
 .gmap {
-  height: 50%;
+  height: 70%;
 }
 
 .marginAuto {
   margin: auto;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.BannerImage {
+  height: 5em !important;
+  width: 8em !important;
 }

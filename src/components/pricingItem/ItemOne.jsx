@@ -12,9 +12,9 @@ export class ItemOne extends Component {
           <span className="featured">{itemone.Featured}</span>
         </div>
         <div className="plan-price">
-          <h3>{itemone.planName}</h3>
+          {/* <h3>{itemone.planName}</h3> */}
           <span className="value">{itemone.price}</span>
-          <span className="period">{itemone.description}</span>
+          {/* <span className="period">{itemone.description}</span> */}
         </div>
 
         <div className="plan-features">

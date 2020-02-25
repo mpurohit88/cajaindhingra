@@ -17,6 +17,11 @@ class BannerOne extends Component {
                 <div className="container">
                   <div className="row">
                     <div className="col-lg-7">
+                      <img
+                        class="BannerImage"
+                        src={bannerone.Image}
+                        alt="Description"
+                      />
                       <span
                         className={
                           isVisible
@@ -27,15 +32,24 @@ class BannerOne extends Component {
                         {bannerone.TopTitle}
                       </span>
 
-                      <h1
+                      <h2
                         className={
                           isVisible
-                            ? "animated fadeInDown slow opacityOne"
-                            : "opacityZero"
+                            ? "animated fadeInDown slow opacityOne colorWhite"
+                            : "opacityZero colorWhite"
                         }
                       >
                         {bannerone.Title}
-                      </h1>
+                      </h2>
+                      <h3
+                        className={
+                          isVisible
+                            ? "animated fadeInDown slow opacityOne colorWhite"
+                            : "opacityZero colorWhite"
+                        }
+                      >
+                        {bannerone.SubTitle}
+                      </h3>
                       <p
                         className={
                           isVisible
@@ -109,6 +123,8 @@ BannerOne.defaultProps = {
       BgClass: "single-slider-item slide-bg-1",
       TopTitle: "Business made simple",
       Title: "Welcome To Jain Dhingra & Associates",
+      SubTitle: "Chartered Accountants",
+      Image: require("../../assets/img/CALogo.png"),
       Content:
         "Jain Dhingra & Associates is a group of experienced professionals in the field of Finance & Accounts, Taxation, Audit, Outsourcing and Compliances etc. since 1973.",
       BtnLink: "/#0",
@@ -118,6 +134,8 @@ BannerOne.defaultProps = {
       BgClass: "single-slider-item slide-bg-2",
       TopTitle: "Business made simple",
       Title: "Welcome To Jain Dhingra & Associates",
+      SubTitle: "Chartered Accountants",
+      Image: require("../../assets/img/CALogo.png"),
       Content:
         "Jain Dhingra & Associates is a group of experienced professionals in the field of Finance & Accounts, Taxation, Audit, Outsourcing and Compliances etc. since 1973. ",
       BtnLink: "/#0",
@@ -127,6 +145,8 @@ BannerOne.defaultProps = {
       BgClass: "single-slider-item slide-bg-3",
       TopTitle: "Business made simple",
       Title: "Welcome To Jain Dhingra & Associates",
+      SubTitle: "Chartered Accountants",
+      Image: require("../../assets/img/CALogo.png"),
       Content:
         "Jain Dhingra & Associates is a group of experienced professionals in the field of Finance & Accounts, Taxation, Audit, Outsourcing and Compliances etc. since 1973. ",
       BtnLink: "/#0",
