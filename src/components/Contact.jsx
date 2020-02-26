@@ -275,7 +275,7 @@ Contact.defaultProps = {
   Address:
     "17/14, The Mall, Kanpur, U.P. – 208001 , Landmark - Bank of Baroda Building  ",
   EmailTitle: "Email",
-  Email: "info@cajaindhingra.com",
+  Email: "info@taxjda.com",
   PhoneTitle: "Phone",
   Phone: "9736136414, 9839470209, 9415052167",
   Branch1Title: "Delhi Branch",
