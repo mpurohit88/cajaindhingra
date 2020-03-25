@@ -31,9 +31,9 @@ class Contact extends Component {
     // const templateId = "template_bjvd76Ns";
     // const serviceId = "mailjet";
     // const userId = "user_wtH5nyU3NXs667ovWi6ls";
-
+    // New Changes
     axios
-      .post("http://uploader.saimrc.com/api/sendEmail", templateParams)
+      .post(window.location.protocol + "://uploader.saimrc.com/api/sendEmail", templateParams)
       .then(function(response) {
         document.getElementById("contactForm").reset();
         that.setState({
