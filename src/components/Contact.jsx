@@ -33,7 +33,7 @@ class Contact extends Component {
     // const userId = "user_wtH5nyU3NXs667ovWi6ls";
     // New Changes
     axios
-      .post(window.location.protocol + "://uploader.saimrc.com/api/sendEmail", templateParams)
+      .post("/api/sendEmail", templateParams)
       .then(function(response) {
         document.getElementById("contactForm").reset();
         that.setState({
